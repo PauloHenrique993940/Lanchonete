@@ -1,0 +1,38 @@
+.header-navgation-item {
+    display: inline-block;
+    padding: 0 4px;
+}
+
+.header-navgation-link:hover{
+    color:#2a0f14;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.header-navgation-link{
+    border: 2px solid #3e0f34;
+    border-radius: 12px;
+    padding: 8px 24px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3e0f34;
+    
+    
+}
+
+
+header ul a{
+    
+    text-decoration: none;
+    color: #2a0f14;
+    font-size: 20px;
+   
+}
+
+
+
+header ul a:hover{
+    color: #e19795;
+}

@@ -1,0 +1,80 @@
+/* Estilos gerais do footer */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-navgation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+
+.footer-content {
+    flex: 1 1 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-navgation-list {
+    padding: 0;
+}
+
+.footer-navgation-list li {
+    margin-left: 20;
+    line-height: 28px;
+    list-style-type: none;
+    padding: 4px;
+    justify-content: center;
+}
+
+.footer-navgation-title {
+    margin-bottom: 10px;
+    padding: 30px;
+}
+
+.list a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a{
+    color: #fff;
+}
+
+/* Estilos para telas menores ou iguais a 768px */
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-navgation {
+        flex: 1 1 100%;
+        text-align: center;
+    }
+
+    .footer-content {
+        flex: 1 1 100%;
+        text-align: center;
+    }
+
+    .footer-navgation-list li {
+        margin: 0;
+    }
+
+    .footer-content-legal-terms {
+        text-align: center;
+    }
+
+    .footer-content-legal-terms a {
+        display: block;
+        margin: 5px 0;
+    }
+}

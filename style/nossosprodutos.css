@@ -1,0 +1,68 @@
+.section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilos Específicos para Coxinhas e Bebidas */
+.coxinhas-container,
+.bebidas-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+
+}
+
+.coxinha-card,
+.bebida-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+    padding: 15px;
+    text-align: center;
+}
+
+.coxinha-card-img,
+.bebida-card-img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.coxinha-card-title,
+.bebida-card-title {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #555;
+}
+
+.coxinha-card-description,
+.bebida-card-description {
+    font-size: 0.9em;
+    color: #777;
+    margin: 10px 0;
+}
+
+.coxinha-card-btn,
+.bebida-card-btn {
+    background-color: #ff6347;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.coxinha-card-btn:hover,
+.bebida-card-btn:hover {
+    background-color: #ff4500;
+}

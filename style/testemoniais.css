@@ -1,0 +1,50 @@
+.testimodial{
+    background-attachment: fixed;
+    background-color: aqua;
+}
+
+
+.testimodial-list{
+    list-style-type: none;
+    text-align: center;
+}
+
+.testimodial-list-item{
+    display: inline-block;
+    width: 33%;
+    padding: 16px;
+}
+
+.testimodial-img{
+    border-radius: 50%;
+    width: 100px;
+}
+
+.testemunho-username{
+    font-weight: 500;
+    font-size: 0.6em;
+}
+
+@media (min-width: 768px) and (max-width: 768px) {
+    .testimodial {
+        background-color: aqua; /* Altera a cor de fundo apenas para exemplo */
+    }
+
+    .testimodial-list-item {
+        width: 100%; /* Faz cada item ocupar a largura total */
+        flex-direction: row;
+    }
+
+    .testimodial-img {
+        width: 150px; /* Aumenta o tamanho da imagem */
+    }
+
+    .testemunho-username {
+        font-size: 1em; /* Aumenta o tamanho da fonte do nome de usuário */
+    }
+
+    .testemunho-text {
+        font-size: 1.2em; /* Aumenta o tamanho da fonte dos depoimentos */
+    }
+}
+
